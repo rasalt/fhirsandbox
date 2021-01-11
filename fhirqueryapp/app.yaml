@@ -1,0 +1,14 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+service: healthcareapiview
+
+#[START gae_flex_fhirqueryapp_yaml]
+env_variables:
+    BASE_URL: 'https://healthcare.googleapis.com/v1'
+    PROJECT_ID: 'smede-276406'
+    REGION: us-central1
+    DATASET_ID: temp
+    FHIR_STORE_ID: t
+#[END gae_flex_fhirqueryapp_yaml]
